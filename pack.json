@@ -1,0 +1,11 @@
+{
+  "uuid": "ccbbc7ba-ebe6-4bbf-a6d5-700dd6a29f67",
+  "name": "Sandy's Pvz2: Rebloomed",
+  "version": "PS-0",
+  "priority": 100,
+  "description": "A large revamp of PvZ2 Gardendless.",
+  "author": "Sandy",
+  "formatVersion": 1,
+  "gameVersion": "0.7.1",
+  "gpNextVersion": ">=1.0.0"
+}

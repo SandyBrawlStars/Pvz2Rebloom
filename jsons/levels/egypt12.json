@@ -1,0 +1,730 @@
+{
+  "Information": {
+    "Author": "Sandy",
+    "Introduction": "",
+    "Version": "1.0",
+    "CreatedAt": "2026-2-10",
+    "UpdatedAt": "2026-2-10",
+    "Difficulty": "Easy",
+    "Category": "Adventure"
+  },
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "Description": "???",
+        "LevelNumber": 12,
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "Modules": [
+          "RTID(SunDropper@CurrentLevel)",
+          "RTID(DefaultZombieWinCondition@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(EgyptMowers@LevelModules)",
+          "RTID(WaveManagerModule@CurrentLevel)",
+          "RTID(SeedBank@CurrentLevel)",
+          "RTID(Gravestones@CurrentLevel)"
+        ],
+        "Name": "Ancient Egypt/Pirate Seas Rift\n???",
+        "WrritenBy": "Sandy",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "StageModule": "RTID(PersuitStage@LevelModules)",
+        "StartingSun": 50,
+        "MusicType": "MiniGame_A",
+        "FirstIntroNarrative": "INTRO",
+        "ReplayIntroNarrative": "INTRO",
+        "FirstRewardParam": "worldkey",
+        "FirstRewardType": "worldtrophy",
+        "ForceToWorldMap": true,
+        "GameFeaturesToUnlock": [
+          "feature_worldkeys"
+        ]
+      }
+    },
+    {
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "DynamicZombies": [
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 25,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(camel_onehump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 40,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(camel_onehump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 50,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(camel_onehump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 55,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(camel_onehump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)"
+            ]
+          }
+        ],
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      },
+      "aliases": [
+        "WaveManagerModule"
+      ]
+    },
+    {
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 10,
+        "WaveCount": 30,
+        "ZombieCountdownFirstWaveSecs": 18,
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"],
+          ["RTID(Wave4@CurrentLevel)"],
+          ["RTID(Wave5@CurrentLevel)"],
+          ["RTID(Wave6@CurrentLevel)"],
+          ["RTID(Wave7@CurrentLevel)"],
+          ["RTID(Wave8@CurrentLevel)"],
+          ["RTID(Wave9@CurrentLevel)", "RTID(RandomPortal1@CurrentLevel)"],
+          ["RTID(Wave10@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave11@CurrentLevel)" , 
+          "RTID(NecromancyWarning@CurrentLevel)" , "RTID(Necromancy@CurrentLevel)"],
+          ["RTID(Wave12@CurrentLevel)"],
+          ["RTID(Wave13@CurrentLevel)"],
+          ["RTID(Wave14@CurrentLevel)"],
+          ["RTID(Wave15@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave16@CurrentLevel)"],
+          ["RTID(Wave17@CurrentLevel)"],
+          ["RTID(Wave18@CurrentLevel)", "RTID(RandomPortal2@CurrentLevel)"],
+          ["RTID(Wave19@CurrentLevel)" ],
+          ["RTID(Wave20@CurrentLevel)",
+          "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave21@CurrentLevel)"],
+          ["RTID(Wave22@CurrentLevel)"],
+          ["RTID(Wave23@CurrentLevel)", "RTID(RandomPortal2@CurrentLevel)"],
+          ["RTID(Wave24@CurrentLevel)"],
+          ["RTID(Wave25@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave26@CurrentLevel)"],
+          ["RTID(Wave27@CurrentLevel)"],
+          ["RTID(Wave28@CurrentLevel)", "RTID(RandomPortal3@CurrentLevel)"],
+          ["RTID(Wave29@CurrentLevel)"],
+          ["RTID(Wave30@CurrentLevel)",
+          "RTID(WaveWarning@CurrentLevel)", "RTID(Necromancy@CurrentLevel)", "RTID(RandomPortal4@CurrentLevel)"]
+        ]
+      },
+      "aliases": [
+        "WaveManager"
+      ]
+    },
+    {
+        "objclass": "PortalType",
+        "aliases": [
+            "Portal0"
+        ],
+        "objdata": {
+            "Properties": "RTID(Portal0props@CurrentLevel)"
+        }
+    },
+    {
+        "objclass": "PortalProps",
+        "aliases": [
+            "Portal0props"
+        ],
+        "objdata": {
+            "TimeBeforeFirst": {
+                "Min": 0.5,
+                "Max": 1
+            },
+            "TimeBetween": {
+                "Min": 5,
+                "Max": 8
+            },
+            "Scale": 1,
+            "World": "pirate",
+            "ZombieTypesToSpawn": [
+                {
+                    "Weight": 4,
+                    "ZombieTypeName": "pirate"
+                }
+            ]
+        }
+    },
+    {
+        "objclass": "PortalType",
+        "aliases": [
+            "Portal1"
+        ],
+        "objdata": {
+            "Properties": "RTID(Portal1props@CurrentLevel)"
+        }
+    },
+    {
+        "objclass": "PortalProps",
+        "aliases": [
+            "Portal1props"
+        ],
+        "objdata": {
+            "TimeBeforeFirst": {
+                "Min": 0.5,
+                "Max": 1
+            },
+            "TimeBetween": {
+                "Min": 5,
+                "Max": 8
+            },
+            "Scale": 1,
+            "World": "pirate",
+            "ZombieTypesToSpawn": [
+                {
+                    "Weight": 2,
+                    "ZombieTypeName": "pirate_armor1"
+                }
+            ]
+        }
+    },
+    {
+        "objclass": "PortalType",
+        "aliases": [
+            "Portal2"
+        ],
+        "objdata": {
+            "Properties": "RTID(Portal2props@CurrentLevel)"
+        }
+    },
+    {
+        "objclass": "PortalProps",
+        "aliases": [
+            "Portal2props"
+        ],
+        "objdata": {
+            "TimeBeforeFirst": {
+                "Min": 0.5,
+                "Max": 1
+            },
+            "TimeBetween": {
+                "Min": 5,
+                "Max": 8
+            },
+            "Scale": 1,
+            "World": "pirate",
+            "ZombieTypesToSpawn": [
+                {
+                    "Weight": 1,
+                    "ZombieTypeName": "pirate"
+                },
+                {
+                    "Weight": 2,
+                    "ZombieTypeName": "pirate_armor2"
+                }
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent0Var1"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 6,
+            "PortalRow": 3,
+            "PortalType": "RTID(Portal0@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent0Var2"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 7,
+            "PortalRow": 1,
+            "PortalType": "RTID(Portal0@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent1Var1"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 7,
+            "PortalRow": 0,
+            "PortalType": "RTID(Portal1@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent1Var2"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 6,
+            "PortalRow": 4,
+            "PortalType": "RTID(Portal1@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent1Var3"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 8,
+            "PortalRow": 2,
+            "PortalType": "RTID(Portal1@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent2Var1"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 6,
+            "PortalRow": 1,
+            "PortalType": "RTID(Portal1@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent2Var2"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 7,
+            "PortalRow": 4,
+            "PortalType": "RTID(Portal1@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+        "aliases": [
+            "PortalsEvent2Var3"
+        ],
+        "objclass": "SpawnModernPortalsWaveActionProps",
+        "objdata": {
+            "PortalColumn": 8,
+            "PortalRow": 3,
+            "PortalType": "RTID(Portal1@CurrentLevel)",
+            "SpawnEffectAnimID": "",
+            "SpawnSoundID": ""
+        }
+    },
+    {
+      "aliases": [
+        "RandomPortal1"
+      ],
+      "objclass": "RandomEventsProps",
+      "objdata": {
+        "EventCount": {
+          "Min": 1,
+          "Max": 2
+        },
+        "Events": [
+          "RTID(PortalsEvent0Var1@CurrentLevel)",
+          "RTID(PortalsEvent0Var2@CurrentLevel)"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "RandomPortal2"
+      ],
+      "objclass": "RandomEventsProps",
+      "objdata": {
+        "EventCount": {
+          "Min": 2,
+          "Max": 2
+        },
+        "Events": [
+          "RTID(PortalsEvent0Var2@CurrentLevel)",
+          "RTID(PortalsEvent1Var1@CurrentLevel)",
+          "RTID(PortalsEvent1Var2@CurrentLevel)"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "RandomPortal3"
+      ],
+      "objclass": "RandomEventsProps",
+      "objdata": {
+        "EventCount": {
+          "Min": 2,
+          "Max": 3
+        },
+        "Events": [
+          "RTID(PortalsEvent1Var1@CurrentLevel)",
+          "RTID(PortalsEvent1Var2@CurrentLevel)",
+          "RTID(PortalsEvent1Var3@CurrentLevel)",
+          "RTID(PortalsEvent2Var1@CurrentLevel)"
+        ]
+      }
+    },
+    {
+      "aliases": [
+        "RandomPortal4"
+      ],
+      "objclass": "RandomEventsProps",
+      "objdata": {
+        "EventCount": {
+          "Min": 2,
+          "Max": 3
+        },
+        "Events": [
+          "RTID(PortalsEvent1Var2@CurrentLevel)",
+          "RTID(PortalsEvent1Var3@CurrentLevel)",
+          "RTID(PortalsEvent2Var1@CurrentLevel)",
+          "RTID(PortalsEvent2Var2@CurrentLevel)",
+          "RTID(PortalsEvent2Var3@CurrentLevel)"
+        ]
+      }
+    },
+    {
+      "objclass": "SeedBankProperties",
+      "objdata": {
+        "SelectionMethod": "chooser",
+        "CardDecks": {
+          "ChallengingLocked": false,
+          "Challenging": [
+            {
+              "Name": {
+                "en": "Advancing Forward",
+                "zh": "Advancing Forward"
+              },
+              "Leader": 2,
+              "Plants": [
+                "sunflower",
+                "cabbagepult",
+                "kernelpult",
+                "iceburg",
+                "wallnut",
+                "gravebuster"
+              ]
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "SeedBank"
+      ]
+    },
+    {
+        "aliases": [
+            "Necromancy"
+        ],
+        "objclass": "SpawnZombiesFromGridItemSpawnerProps",
+        "objdata": {
+            "GridTypes": [
+                "RTID(gravestone_tutorial@GridItemTypes)"
+            ],
+            "ZombieSpawnWaitTime": 1,
+            "Zombies": [
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave10"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.6,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave15"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.7,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(pharaoh@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave20"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 1.0,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave25"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 1.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave30"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 1.0,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(pharaoh@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+      "aliases": ["SandstormWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 237,
+        "LabelG": 188,
+        "LabelB": 26,
+        "LabelAInit": 1,
+        "OutLineR": 177,
+        "OutLineG": 138,
+        "OutLineB": 0,
+        "String": "Sandstorm!",
+        "Sound": "none",
+        "LabelTargetScale": 0.6,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": ["WaveWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 218,
+        "LabelG": 119,
+        "LabelB": 113,
+        "LabelAInit": 1,
+        "OutLineR": 160,
+        "OutLineG": 60,
+        "OutLineB": 55,
+        "String": "Rise Of The Dead!",
+        "Sound": "none",
+        "LabelTargetScale": 0.6,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": ["NecromancyWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 200,
+        "LabelG": 50,
+        "LabelB": 200,
+        "LabelAInit": 1,
+        "OutLineR": 150,
+        "OutLineG": 0,
+        "OutLineB": 150,
+        "String": "Necromancy!",
+        "Sound": "none",
+        "LabelTargetScale": 0.8,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": [
+        "SunDropper"
+      ],
+      "objclass": "SunDropperProperties",
+      "objdata": {
+        "InitialSunDropDelay": 5,
+        "SunCountdownBase": 9,
+        "SunCountdownIncreasePerSun": 0,
+        "SunCountdownMax": 9.5,
+        "SunCountdownRange": 0.5,
+        "Value": 25
+      }
+    },
+    {
+        "aliases": [
+            "Gravestones"
+        ],
+        "objclass": "GravestoneProperties",
+        "objdata": {
+            "GravestoneCount": 10,
+            "SpawnColumnEnd": 9,
+            "SpawnColumnStart": 6,
+            "TypeName": "gravestone_tutorial"
+        }
+    },
+    {
+    "aliases": [
+        "INTRO"
+    ],
+    "objclass": "NarrativeProperties",
+    "objdata": {
+        "Flow": [
+        {
+            "Character": "crazydave",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "winnie",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "winnie",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "We were just chasing after Zomboss... What is this place... ",
+                "zh": "We were just chasing after Zomboss... What is this place... "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "PLAYFUL",
+            "Lines": {
+                "en": "This is a rift, a tear in time and space, we should get out of here! ",
+                "zh": "This is a rift, a tear in time and space, we should get out of here! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "But not before chasing down Zomboss to stop this once and for all! ",
+                "zh": "But not before chasing down Zomboss to stop this once and for all! "
+            }
+        },
+        {
+            "Character": "winnie",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "I've detected this tear could cause appearance of Zombies from other time periods! ",
+                "zh": "I've detected this tear could cause appearance of Zombies from other time periods! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "SHOUT",
+            "Lines": {
+                "en": "We'll need to watch out for those! ",
+                "zh": "We'll need to watch out for those! "
+            }
+        }
+    ]
+    }
+    }
+  ],
+  "version": 1
+}

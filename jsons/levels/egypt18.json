@@ -1,0 +1,554 @@
+{
+  "Information": {
+    "Author": "Sandy",
+    "Introduction": "",
+    "Version": "1.0",
+    "CreatedAt": "2026-2-10",
+    "UpdatedAt": "2026-2-10",
+    "Difficulty": "Easy",
+    "Category": "Adventure"
+  },
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "Description": "<PLAYERNAME>'s Stay In Ancient Egypt",
+        "LevelNumber": 18,
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "Modules": [
+          "RTID(SunDropper@CurrentLevel)",
+          "RTID(DefaultZombieWinCondition@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(EgyptMowers@LevelModules)",
+          "RTID(WaveManagerModule@CurrentLevel)",
+          "RTID(SeedBank@CurrentLevel)",
+          "RTID(Gravestones@CurrentLevel)"
+        ],
+        "Name": "Survival - Ancient Egypt",
+        "WrritenBy": "Sandy",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "StageModule": "RTID(EgyptStage@LevelModules)",
+        "StartingSun": 50,
+        "FirstIntroNarrative": "INTRO",
+        "ReplayIntroNarrative": "INTRO"
+      }
+    },
+    {
+      "objclass": "SeedBankProperties",
+      "objdata": {
+        "SelectionMethod": "chooser"
+      },
+      "aliases": [
+        "SeedBank"
+      ]
+    },
+    {
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "DynamicZombies": [
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 25,
+            "StartingPoints": 100,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(mummy_armor4@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(camel_twohump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 34,
+            "StartingPoints": 100,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(mummy_armor4@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(camel_twohump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 50,
+            "StartingPoints": 100,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(mummy_armor4@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(camel_twohump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 55,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(mummy_armor4@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(camel_twohump@ZombieTypes)",
+              "RTID(pharaoh@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          }
+        ],
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      },
+      "aliases": [
+        "WaveManagerModule"
+      ]
+    },
+    {
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 10,
+        "WaveCount": 50,
+        "ZombieCountdownFirstWaveSecs": 20,
+        "FlagWaveVeteranOverrideTypes": [0, 1, 0, 1, 1],
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"],
+          ["RTID(Wave4@CurrentLevel)"],
+          ["RTID(Wave5@CurrentLevel)"],
+          ["RTID(Wave6@CurrentLevel)"],
+          ["RTID(Wave7@CurrentLevel)"],
+          ["RTID(Wave8@CurrentLevel)"],
+          ["RTID(Wave9@CurrentLevel)"],
+          ["RTID(Wave10@CurrentLevel)" , "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave11@CurrentLevel)"],
+          ["RTID(Wave12@CurrentLevel)"],
+          ["RTID(Wave13@CurrentLevel)" , 
+          "RTID(NecromancyWarning@CurrentLevel)" , "RTID(Necromancy@CurrentLevel)"],
+          ["RTID(Wave14@CurrentLevel)"],
+          ["RTID(Wave15@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave16@CurrentLevel)"],
+          ["RTID(Wave17@CurrentLevel)"],
+          ["RTID(Wave18@CurrentLevel)"],
+          ["RTID(Wave19@CurrentLevel)" ,
+          "RTID(NecromancyWarning@CurrentLevel)", "RTID(Necromancy@CurrentLevel)"],
+          ["RTID(Wave20@CurrentLevel)" , "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave21@CurrentLevel)"],
+          ["RTID(Wave22@CurrentLevel)"],
+          ["RTID(Wave23@CurrentLevel)", 
+          "RTID(NecromancyWarning@CurrentLevel)" , "RTID(Necromancy2@CurrentLevel)"],
+          ["RTID(Wave24@CurrentLevel)"],
+          ["RTID(Wave25@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave26@CurrentLevel)"],
+          ["RTID(Wave27@CurrentLevel)"],
+          ["RTID(Wave28@CurrentLevel)"],
+          ["RTID(Wave29@CurrentLevel)"],
+          ["RTID(Wave30@CurrentLevel)" , "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave31@CurrentLevel)" , 
+          "RTID(NecromancyWarning@CurrentLevel)" , "RTID(Necromancy@CurrentLevel)"],
+          ["RTID(Wave32@CurrentLevel)"],
+          ["RTID(Wave33@CurrentLevel)"],
+          ["RTID(Wave34@CurrentLevel)"],
+          ["RTID(Wave35@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave36@CurrentLevel)" ,
+          "RTID(NecromancyWarning@CurrentLevel)", "RTID(Necromancy2@CurrentLevel)"],
+          ["RTID(Wave37@CurrentLevel)"],
+          ["RTID(Wave38@CurrentLevel)"],
+          ["RTID(Wave39@CurrentLevel)" ,
+          "RTID(NecromancyWarning@CurrentLevel)", "RTID(Necromancy2@CurrentLevel)"],
+          ["RTID(Wave40@CurrentLevel)" , "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave41@CurrentLevel)" , 
+          "RTID(NecromancyWarning@CurrentLevel)" , "RTID(Necromancy@CurrentLevel)"],
+          ["RTID(Wave42@CurrentLevel)"],
+          ["RTID(Wave43@CurrentLevel)"],
+          ["RTID(Wave44@CurrentLevel)"],
+          ["RTID(Wave45@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave46@CurrentLevel)" ,
+          "RTID(NecromancyWarning@CurrentLevel)", "RTID(Necromancy2@CurrentLevel)"],
+          ["RTID(Wave47@CurrentLevel)"],
+          ["RTID(Wave48@CurrentLevel)"],
+          ["RTID(Wave49@CurrentLevel)" ,
+          "RTID(NecromancyWarning@CurrentLevel)", "RTID(Necromancy2@CurrentLevel)"],
+          ["RTID(Wave50@CurrentLevel)",
+          "RTID(WaveWarning@CurrentLevel)", "RTID(Necromancy2@CurrentLevel)"]
+        ]
+      },
+      "aliases": [
+        "WaveManager"
+      ]
+    },
+    {
+        "aliases": [
+            "Necromancy"
+        ],
+        "objclass": "SpawnZombiesFromGridItemSpawnerProps",
+        "objdata": {
+            "GridTypes": [
+                "RTID(gravestone_egypt@GridItemTypes)"
+            ],
+            "ZombieSpawnWaitTime": 1,
+            "Zombies": [
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Necromancy2"
+        ],
+        "objclass": "SpawnZombiesFromGridItemSpawnerProps",
+        "objdata": {
+            "GridTypes": [
+                "RTID(gravestone_egypt@GridItemTypes)"
+            ],
+            "ZombieSpawnWaitTime": 1,
+            "Zombies": [
+                {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(pharaoh@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave10"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)", "Row" : "2"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)", "Row" : "4"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave15"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(pharaoh@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave20"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave25"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave30"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 2,
+            "TimeBetweenGroups": 1.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave35"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 2,
+            "TimeBetweenGroups": 2.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor2@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave40"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 2,
+            "TimeBetweenGroups": 2.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor4@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave45"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 2,
+            "TimeBetweenGroups": 2.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(pharaoh@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor4@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave50"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 2,
+            "TimeBetweenGroups": 2.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(tomb_raiser@ZombieTypes)"},
+              {"Type": "RTID(pharaoh@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor4@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+      "aliases": ["SandstormWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 237,
+        "LabelG": 188,
+        "LabelB": 26,
+        "LabelAInit": 1,
+        "OutLineR": 177,
+        "OutLineG": 138,
+        "OutLineB": 0,
+        "String": "Sandstorm!",
+        "Sound": "none",
+        "LabelTargetScale": 0.6,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": ["WaveWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 218,
+        "LabelG": 119,
+        "LabelB": 113,
+        "LabelAInit": 1,
+        "OutLineR": 160,
+        "OutLineG": 60,
+        "OutLineB": 55,
+        "String": "Rise Of The Dead!",
+        "Sound": "none",
+        "LabelTargetScale": 0.6,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": ["NecromancyWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 200,
+        "LabelG": 50,
+        "LabelB": 200,
+        "LabelAInit": 1,
+        "OutLineR": 150,
+        "OutLineG": 0,
+        "OutLineB": 150,
+        "String": "Necromancy!",
+        "Sound": "none",
+        "LabelTargetScale": 0.8,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": [
+        "SunDropper"
+      ],
+      "objclass": "SunDropperProperties",
+      "objdata": {
+        "InitialSunDropDelay": 5,
+        "SunCountdownBase": 9,
+        "SunCountdownIncreasePerSun": 0,
+        "SunCountdownMax": 9.5,
+        "SunCountdownRange": 0.5,
+        "Value": 25
+      }
+    },
+    {
+        "aliases": [
+            "Gravestones"
+        ],
+        "objclass": "GravestoneProperties",
+        "objdata": {
+            "GravestoneCount": 20,
+            "SpawnColumnEnd": 9,
+            "SpawnColumnStart": 5,
+            "TypeName": "gravestone_egypt"
+        }
+    },
+    {
+    "aliases": [
+        "INTRO"
+    ],
+    "objclass": "NarrativeProperties",
+    "objdata": {
+        "Flow": [
+        {
+            "Character": "crazydave",
+            "Action": "NPC_ENTER"
+        },
+        {
+          "Character": "crazydave",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "This is a survival level, you'll have to survive against the strongest Zombies... ",
+                "zh": "This is a survival level, you'll have to survive against the strongest Zombies... "
+            }
+        },
+        {
+          "Character": "crazydave",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "For as long as you can! ..Or more like 50 waves! ",
+                "zh": "For as long as you can! ..Or more like 50 waves! "
+            }
+        },
+        {
+          "Character": "crazydave",
+            "Action": "SHOUT",
+            "Lines": {
+                "en": "With every plant of this world in your disposal, you can achieve complete MASTERY! ",
+                "zh": "With every plant of this world in your disposal, you can achieve complete MASTERY! "
+            }
+        }
+        ]
+    }
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,447 @@
+{
+  "Information": {
+    "Author": "Sandy",
+    "Introduction": "",
+    "Version": "1.0",
+    "CreatedAt": "2026-2-10",
+    "UpdatedAt": "2026-2-10",
+    "Difficulty": "Easy",
+    "Category": "Adventure"
+  },
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "Description": "<PLAYERNAME>'s Stay In Ancient Egypt",
+        "LevelNumber": 16,
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "Modules": [
+          "RTID(SunDropper@CurrentLevel)",
+          "RTID(DefaultZombieWinCondition@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(EgyptMowers@LevelModules)",
+          "RTID(WaveManagerModule@CurrentLevel)",
+          "RTID(SeedBank@CurrentLevel)",
+          "RTID(Gravestones@CurrentLevel)",
+          "RTID(Endangered@CurrentLevel)"
+        ],
+        "Name": "Ancient Egypt B-Side - Day 4\nSave Our Seeds",
+        "WrritenBy": "Sandy",
+        "NormalPresentTable": "egypt_normal_01",
+        "MusicType": "MiniGame_A",
+        "FirstRewardParam": "snowpea",
+        "FirstRewardType": "unlock_plant",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "StageModule": "RTID(EgyptStage@LevelModules)",
+        "StartingSun": 50,
+        "FirstIntroNarrative": "INTRO",
+        "ReplayIntroNarrative": "INTRO"
+      }
+    },
+    {
+      "objclass": "ProtectThePlantChallengeProperties",
+      "aliases": [
+          "Endangered"
+      ],
+      "objdata": {
+          "MustProtectCount": 5,
+          "Plants": [
+              {
+                  "GridX": 3,
+                  "GridY": 0,
+                  "PlantType": "snowpea"
+              },
+              {
+                  "GridX": 3,
+                  "GridY": 1,
+                  "PlantType": "snowpea"
+              },
+              {
+                  "GridX": 3,
+                  "GridY": 2,
+                  "PlantType": "snowpea"
+              },
+              {
+                  "GridX": 3,
+                  "GridY": 3,
+                  "PlantType": "snowpea"
+              },
+              {
+                  "GridX": 3,
+                  "GridY": 4,
+                  "PlantType": "snowpea"
+              }
+          ]
+      }
+    },
+    {
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "DynamicZombies": [
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 40,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 55,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 65,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 80,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(mummy_armor2@ZombieTypes)",
+              "RTID(explorer_veteran@ZombieTypes)",
+              "RTID(tomb_raiser@ZombieTypes)",
+              "RTID(explorer@ZombieTypes)"
+            ]
+          }
+        ],
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      },
+      "aliases": [
+        "WaveManagerModule"
+      ]
+    },
+    {
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 10,
+        "WaveCount": 20,
+        "FlagWaveVeteranOverrideTypes": [0, 1],
+        "ZombieCountdownFirstWaveSecs": 18,
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"],
+          ["RTID(Wave4@CurrentLevel)"],
+          ["RTID(Wave5@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave6@CurrentLevel)"],
+          ["RTID(Wave7@CurrentLevel)"],
+          ["RTID(Wave8@CurrentLevel)"],
+          ["RTID(Wave9@CurrentLevel)"],
+          ["RTID(Wave10@CurrentLevel)" , "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave11@CurrentLevel)"],
+          ["RTID(Wave12@CurrentLevel)"],
+          ["RTID(Wave13@CurrentLevel)"],
+          ["RTID(Wave14@CurrentLevel)"],
+          ["RTID(Wave15@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"],
+          ["RTID(Wave16@CurrentLevel)"],
+          ["RTID(Wave17@CurrentLevel)"],
+          ["RTID(Wave18@CurrentLevel)"],
+          ["RTID(Wave19@CurrentLevel)"],
+          ["RTID(Wave20@CurrentLevel)", "RTID(SandstormWarning@CurrentLevel)"]
+        ]
+      },
+      "aliases": [
+        "WaveManager"
+      ]
+    },
+    {
+      "objclass": "SeedBankProperties",
+      "objdata": {
+        "SelectionMethod": "chooser"
+      },
+      "aliases": [
+        "SeedBank"
+      ]
+    },
+    {
+        "aliases": [
+            "Necromancy"
+        ],
+        "objclass": "SpawnZombiesFromGridItemSpawnerProps",
+        "objdata": {
+            "GridTypes": [
+                "RTID(gravestone_egypt@GridItemTypes)"
+            ],
+            "ZombieSpawnWaitTime": 1,
+            "Zombies": [
+                {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Necromancy2"
+        ],
+        "objclass": "SpawnZombiesFromGridItemSpawnerProps",
+        "objdata": {
+            "GridTypes": [
+                "RTID(gravestone_egypt@GridItemTypes)"
+            ],
+            "ZombieSpawnWaitTime": 1,
+            "Zombies": [
+                {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+                {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+                {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+                {"Type": "RTID(pharaoh@ZombieTypes)"},
+                {"Type": "RTID(mummy@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave5"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave10"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 0.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave15"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 7,
+            "ColumnStart": 6,
+            "GroupSize": 1,
+            "TimeBetweenGroups": 2.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+        "aliases": [
+            "Wave20"
+        ],
+        "objclass": "StormZombieSpawnerProps",
+        "objdata": {
+            "ColumnEnd": 8,
+            "ColumnStart": 7,
+            "GroupSize": 2,
+            "TimeBetweenGroups": 3.5,
+            "Type": "sandstorm",
+            "Zombies": [
+              {"Type": "RTID(mummy@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor2@ZombieTypes)"},
+              {"Type": "RTID(mummy_armor1@ZombieTypes)"},
+              {"Type": "RTID(explorer_veteran@ZombieTypes)"},
+              {"Type": "RTID(explorer@ZombieTypes)"}
+            ]
+        }
+    },
+    {
+      "aliases": ["SandstormWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 237,
+        "LabelG": 188,
+        "LabelB": 26,
+        "LabelAInit": 1,
+        "OutLineR": 177,
+        "OutLineG": 138,
+        "OutLineB": 0,
+        "String": "Sandstorm!",
+        "Sound": "none",
+        "LabelTargetScale": 0.6,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": ["WaveWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 218,
+        "LabelG": 119,
+        "LabelB": 113,
+        "LabelAInit": 1,
+        "OutLineR": 160,
+        "OutLineG": 60,
+        "OutLineB": 55,
+        "String": "Rise Of The Dead!",
+        "Sound": "none",
+        "LabelTargetScale": 0.6,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": ["NecromancyWarning"],
+        "objclass": "WaveWarningProps",
+        "objdata": {
+        "LabelR": 200,
+        "LabelG": 50,
+        "LabelB": 200,
+        "LabelAInit": 1,
+        "OutLineR": 150,
+        "OutLineG": 0,
+        "OutLineB": 150,
+        "String": "Necromancy!",
+        "Sound": "none",
+        "LabelTargetScale": 0.8,
+        "LabelInitScale": 0.0,
+        "Duration": 1.2,
+        "InitTime": 0.15
+        }
+    },
+    {
+      "aliases": [
+        "SunDropper"
+      ],
+      "objclass": "SunDropperProperties",
+      "objdata": {
+        "InitialSunDropDelay": 5,
+        "SunCountdownBase": 9,
+        "SunCountdownIncreasePerSun": 0,
+        "SunCountdownMax": 9.5,
+        "SunCountdownRange": 0.5,
+        "Value": 25
+      }
+    },
+    {
+        "aliases": [
+            "Gravestones"
+        ],
+        "objclass": "GravestoneProperties",
+        "objdata": {
+            "GravestoneCount": 9,
+            "SpawnColumnEnd": 9,
+            "SpawnColumnStart": 6,
+            "TypeName": "gravestone_egypt"
+        }
+    },
+    {
+    "aliases": [
+        "INTRO"
+    ],
+    "objclass": "NarrativeProperties",
+    "objdata": {
+        "Flow": [
+        {
+            "Character": "crazydave",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "winnie",
+            "Action": "NPC_ENTER"
+        },
+        {
+          "Character": "crazydave",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "Woah, that kind of Snow Pea is ENDANGERED! ",
+                "zh": "Woah, that kind of Snow Pea is ENDANGERED! "
+            }
+        },
+        {
+          "Character": "crazydave",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "We need to Save Those Seeds! ",
+                "zh": "We need to Save Those Seeds! "
+            }
+        },
+        {
+            "Character": "winnie",
+            "Action": "PLAYFUL",
+            "Lines": {
+                "en": "On the other side, the Snow Pea deals really well with Explorer Zombies! ",
+                "zh": "On the other side, the Snow Pea deals really well with Explorer Zombies! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "PLAYFUL",
+            "Lines": {
+                "en": "It truly does! Same with those Torchlights! Fire no more! ",
+                "zh": "It truly does! Same with those Torchlights! Fire no more! "
+            }
+        }
+        ]
+    }
+    }
+  ],
+  "version": 1
+}

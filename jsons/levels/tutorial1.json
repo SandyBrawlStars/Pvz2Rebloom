@@ -1,0 +1,227 @@
+{
+  "Information": {
+    "Author": "Sandy",
+    "Introduction": "",
+    "Version": "1.0",
+    "CreatedAt": "2026-2-10",
+    "UpdatedAt": "2026-2-10",
+    "Difficulty": "Easy",
+    "Category": "Adventure"
+  },
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "Description": "<PLAYERNAME>'s Front Yard",
+        "LevelNumber": 1,
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "Modules": [
+          "RTID(SunDropper@CurrentLevel)",
+          "RTID(DefaultZombieWinCondition@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(ModernMowers@LevelModules)",
+          "RTID(WaveManagerModule@CurrentLevel)",
+          "RTID(SeedBank@CurrentLevel)",    
+          "RTID(TutorialIntro@CurrentLevel)"
+        ],
+        "Name": "<PLAYERNAME>'s House - Day 1\nStarting Over",
+        "WrritenBy": "Sandy",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "StageModule": "RTID(TutorialStage@LevelModules)",
+        "FirstRewardParam": "sunflower",
+        "FirstRewardType": "unlock_plant",
+        "ForceNextLevel": "tutorial2",
+        "GameFeaturesToUnlock": [
+          "feature_coins",
+          "feature_almanac",
+          "feature_powerups",
+          "feature_shovel",
+          "feature_zengarden",
+          "feature_plantfood",
+          "feature_store"
+        ],
+        "StartingSun": 175,
+        "FirstIntroNarrative": "INTRO",
+        "ReplayIntroNarrative": "INTRO"
+      }
+    },
+    {
+      "objclass": "TutorialLevel1Properties",
+      "aliases": [
+        "TutorialIntro"
+      ],
+      "objdata": {}
+    },
+    {
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "DynamicZombies": [
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 25,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(tutorial@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 40,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(tutorial@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 50,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(tutorial@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 55,
+            "StartingPoints": 140,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(tutorial@ZombieTypes)"
+            ]
+          }
+        ],
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      },
+      "aliases": [
+        "WaveManagerModule"
+      ]
+    },
+    {
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 5,
+        "WaveCount": 5,
+        "ZombieCountdownFirstWaveSecs": 12,
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"],
+          ["RTID(Wave4@CurrentLevel)"],
+          ["RTID(Wave5@CurrentLevel)"]
+        ]
+      },
+      "aliases": [
+        "WaveManager"
+      ]
+    },
+    {
+      "objclass": "SeedBankProperties",
+      "objdata": {
+        "SelectionMethod": "chooser"
+      },
+      "aliases": [
+        "SeedBank"
+      ]
+    },
+    {
+      "aliases": [
+        "SunDropper"
+      ],
+      "objclass": "SunDropperProperties",
+      "objdata": {
+        "InitialSunDropDelay": 5,
+        "SunCountdownBase": 9,
+        "SunCountdownIncreasePerSun": 0,
+        "SunCountdownMax": 9.5,
+        "SunCountdownRange": 0.5,
+        "Value": 25
+      }
+    },
+    {
+      "aliases": [
+          "Puddles"
+      ],
+    "objclass": "InitialGridItemProperties",
+      "objdata": {
+          "InitialGridItemMatrixes": [
+              {
+                  "GridMatrix": [
+                      "111111111",
+                      "111111111",
+                      "000000000",
+                      "111111111",
+                      "111111111"
+                  ],
+                  "TypeName": "potholepuddle"
+              }
+          ]
+      }
+    },
+    {
+    "aliases": [
+        "INTRO"
+    ],
+    "objclass": "NarrativeProperties",
+    "objdata": {
+        "Flow": [
+        {
+            "Character": "crazydave",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "crazydave",
+            "Action": "SPECIAL1",
+            "Lines": {
+                "en": "Hello, neighbour! ",
+                "zh": "Hello, neighbour! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "TIRED",
+            "Lines": {
+                "en": "The Zombies are back! ",
+                "zh": "The Zombies are back! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "SAY",
+            "Lines": {
+                "en": "Plant as many Peashooters are you can! ",
+                "zh": "Plant as many Peashooters are you can! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "SHOUT",
+            "Lines": {
+                "en": "See ya later! ",
+                "zh": "See ya later! "
+            }
+        }
+        ]
+    }
+    }
+  ],
+  "version": 1
+}

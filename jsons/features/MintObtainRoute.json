@@ -1,0 +1,120 @@
+{
+  "ROUTES": [
+    {
+      "Family": "Peashooter",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Sun",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Defence",
+      "TargetType": "peashooter",
+      "TryingLevels": [
+        "reinforce_mint_try1",
+        "reinforce_mint_try2",
+        "reinforce_mint_try3"
+      ],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Explosive",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Lobber",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Sharp",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Cold",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Melee",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Fire",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Poison",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Electricity",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Magic",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Shadow",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    },
+    {
+      "Family": "Slow",
+      "TargetType": "peashooter",
+      "TryingLevels": [],
+      "Medals": [
+        
+      ]
+    }
+  ]
+}

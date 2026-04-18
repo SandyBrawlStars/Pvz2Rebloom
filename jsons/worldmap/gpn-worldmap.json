@@ -1,0 +1,580 @@
+{
+  "$schema": "https://pvzge.com/jsons/schema/gpn-worldmap.schema.json",
+  "apiVersion": 1,
+  "worlds": {
+    "egypt": {
+      "data":
+      {
+        "epicTarget": "epic_modern"
+      },
+      "map": {
+        "mode": "replace",
+        "mainline": [
+            {
+                "id": "portal-tutorial",
+                "type": "epicPortal",
+                "position": {"x": -300, "y": 0},
+                "template": {
+                    "type": "epicPortal"
+                },
+                "portalLevels": [
+                    "tutorial1",
+                    "tutorial2",
+                    "tutorial3",
+                    "tutorial4",
+                    "appease1_0"
+                ]
+            },
+            {
+                "id": "lvl-egypt-1",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt1"],
+                "title": "1",
+                "template": {
+                    "levelId": "egypt1"
+                }
+            },
+            {
+                "id": "lvl-egypt-1-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "cabbagepult"
+            },
+            {
+                "id": "lvl-egypt-2",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt2"],
+                "title": "2"
+            },
+            {
+                "id": "lvl-egypt-2-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "bonkchoy"
+            },
+            {
+                "id": "lvl-egypt-3",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt3"],
+                "title": "3"
+            },
+            {
+                "id": "lvl-egypt-3-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "bloomerang"
+            },
+            {
+                "id": "lvl-egypt-4",
+                "type": "level",
+                "template": {
+                    "levelId": "egypt2"
+                },
+                "appearance": "normal",
+                "levels": ["egypt4"],
+                "title": "4"
+            },
+            {
+                "id": "lvl-egypt-5",
+                "type": "level",
+                "appearance": "minigame",
+                "levels": ["egypt5"],
+                "template": {
+                    "levelId": "egypt4"
+                },
+                "title": "5"
+            },
+            {
+                "id": "lvl-egypt-5-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "gravebuster"
+            },
+            {
+                "id": "lvl-egypt-6",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt6"],
+                "title": "6"
+            },
+            {
+                "id": "lvl-egypt-6-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "squash"
+            },
+            {
+                "id": "lvl-egypt-7",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt7"],
+                "title": "7"
+            },
+            {
+                "id": "lvl-egypt-7-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "repeater"
+            },
+            {
+                "id": "lvl-egypt-8",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt8"],
+                "title": "8"
+            },
+            {
+                "id": "lvl-egypt-8-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "twinsunflower"
+            },
+            {
+                "id": "lvl-egypt-9",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt9"],
+                "title": "9"
+            },
+            {
+                "id": "mini-boss-main",
+                "type": "level",
+                "appearance": "gargantuar",
+                "template": {
+                    "levelId": "egypt8"
+                },
+                "levels": ["egypt10"],
+                "title": "10"
+            },
+            {
+                "id": "lvl-egypt-boss",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt11"],
+                "relativePosition": { "x": 550, "y": -30 },
+                "template": {
+                    "levelId": "egypt25"
+                },
+                "title": "Boss"
+            },
+            {
+                "id": "lvl-egypt-boss-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "relativePosition": { "x": 350, "y": 60 },
+                "plantReward": "kernelpult"
+            },
+            {
+                "id": "lvl-egypt-rift",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["egypt12"],
+                "relativePosition": { "x": 200, "y": 30 },
+                "title": "Rift"
+            },
+            {
+                "id": "lvl-egypt-b-1",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 150, "y": 40 },
+                "levels": ["egypt13"],
+                "title": "B-Side 1"
+            },
+            {
+                "id": "lvl-egypt-b-2",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 150, "y": 50 },
+                "levels": ["egypt14"],
+                "template": {
+                    "levelId": "egypt4"
+                },
+                "title": "B-Side 2"
+            },
+            {
+                "id": "lvl-egypt-b-2-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "relativePosition": { "x": 130, "y": 30 },
+                "plantReward": "dandelion"
+            },
+            {
+                "id": "lvl-egypt-b-3",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 130, "y": -30 },
+                "levels": ["egypt15"],
+                "title": "B-Side 3"
+            },
+            {
+                "id": "lvl-egypt-b-4",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 150, "y": -40 },
+                "levels": ["egypt16"],
+                "template": {
+                    "levelId": "egypt4"
+                },
+                "title": "B-Side 4"
+            },
+            {
+                "id": "lvl-egypt-b-4-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "relativePosition": { "x": 150, "y": -50 },
+                "plantReward": "snowpea"
+            },
+            {
+                "id": "mini-boss-main2",
+                "type": "level",
+                "appearance": "gargantuar",
+                "template": {
+                    "levelId": "egypt8"
+                },
+                "relativePosition": { "x": 220, "y": -120 },
+                "levels": ["egypt17"],
+                "children": ["egypt-survival"],
+                "title": "B-Side 5"
+            }
+        ],
+        "branches": [
+            {
+                "id": "egypt-survival",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": { "x": 220, "y": 120 },
+                "levels": ["egypt18"],
+                "title": "Survival"
+            }
+        ]
+      }
+    },
+    "pirate": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+            {
+                "id": "lvl-egypt-1",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate1"],
+                "title": "1",
+                "template": {
+                    "levelId": "pirate1"
+                }
+            },
+            {
+                "id": "lvl-egypt-1-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "snapdragon"
+            },
+            {
+                "id": "lvl-egypt-2",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate2"],
+                "title": "2"
+            },
+            {
+                "id": "lvl-egypt-2-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "springbean"
+            },
+            {
+                "id": "lvl-egypt-3",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate3"],
+                "template": {
+                    "levelId": "pirate2"
+                },
+                "title": "3"
+            },
+            {
+                "id": "lvl-egypt-3-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "threepeater"
+            },
+            {
+                "id": "lvl-egypt-4",
+                "type": "level",
+                "template": {
+                    "levelId": "pirate2"
+                },
+                "appearance": "normal",
+                "levels": ["pirate4"],
+                "title": "4"
+            },
+            {
+                "id": "lvl-egypt-5",
+                "type": "level",
+                "appearance": "minigame",
+                "levels": ["pirate5"],
+                "template": {
+                    "levelId": "pirate5"
+                },
+                "title": "5"
+            },
+            {
+                "id": "lvl-egypt-5-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "coconutcannon"
+            },
+            {
+                "id": "lvl-egypt-6",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate6"],
+                "title": "6"
+            },
+            {
+                "id": "lvl-egypt-6-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "spikeweed"
+            },
+            {
+                "id": "lvl-egypt-7",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate7"],
+                "title": "7"
+            },
+            {
+                "id": "lvl-egypt-7-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "peanut"
+            },
+            {
+                "id": "lvl-egypt-8",
+                "type": "level",
+                "appearance": "normal",
+                "template": {
+                    "levelId": "pirate2"
+                },
+                "levels": ["pirate8"],
+                "title": "8"
+            },
+            {
+                "id": "lvl-egypt-8-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "buttercup"
+            },
+            {
+                "id": "lvl-egypt-9",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate9"],
+                "title": "9"
+            },
+            {
+                "id": "mini-boss-main",
+                "type": "level",
+                "appearance": "gargantuar",
+                "template": {
+                    "levelId": "pirate8"
+                },
+                "relativePosition": { "x": 200, "y": -90 },
+                "levels": ["pirate10"],
+                "title": "10"
+            },
+            {
+                "id": "lvl-egypt-boss",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate11"],
+                "relativePosition": { "x": 500, "y": -70 },
+                "template": {
+                    "levelId": "pirate25"
+                },
+                "title": "Boss"
+            },
+            {
+                "id": "lvl-egypt-boss-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "relativePosition": { "x": 350, "y": 60 },
+                "plantReward": "splitpea"
+            },
+            {
+                "id": "lvl-egypt-rift",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["pirate12"],
+                "relativePosition": { "x": 200, "y": 30 },
+                "title": "Rift"
+            },
+            {
+                "id": "lvl-egypt-b-1",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 150, "y": 40 },
+                "levels": ["pirate13"],
+                "title": "B-Side 1"
+            },
+            {
+                "id": "lvl-egypt-b-2",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 150, "y": 50 },
+                "levels": ["pirate14"],
+                "template": {
+                    "levelId": "pirate5"
+                },
+                "title": "B-Side 2"
+            },
+            {
+                "id": "lvl-egypt-b-2-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "relativePosition": { "x": 130, "y": 30 },
+                "plantReward": "spikerock"
+            },
+            {
+                "id": "lvl-egypt-b-3",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 130, "y": -30 },
+                "levels": ["pirate15"],
+                "title": "B-Side 3"
+            },
+            {
+                "id": "lvl-egypt-b-4",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": {"x": 150, "y": -40 },
+                "levels": ["pirate16"],
+                "template": {
+                    "levelId": "pirate5"
+                },
+                "title": "B-Side 4"
+            },
+            {
+                "id": "lvl-egypt-b-4-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "relativePosition": { "x": 150, "y": -50 },
+                "plantReward": "grapeshot"
+            },
+            {
+                "id": "mini-boss-main2",
+                "type": "level",
+                "appearance": "gargantuar",
+                "template": {
+                    "levelId": "pirate8"
+                },
+                "relativePosition": { "x": 220, "y": -120 },
+                "levels": ["pirate17"],
+                "children": ["egypt-survival"],
+                "title": "B-Side 5"
+            }
+        ],
+        "branches": [
+            {
+                "id": "egypt-survival",
+                "type": "level",
+                "appearance": "normal",
+                "relativePosition": { "x": 220, "y": 120 },
+                "levels": ["pirate18"],
+                "title": "Survival"
+            }
+        ]
+      }
+    },
+    "epic_modern": {
+      "data":
+      {
+        "epicTarget": "egypt"
+      },
+      "map": {
+        "mode": "replace",
+        "mainline": [
+            {
+                "id": "portal-egypt",
+                "type": "epicPortal",
+                "template": {
+                    "type": "epicPortal"
+                },
+                "portalLevels": [
+                    "egypt1"
+                ]
+            },
+            {
+                "id": "lvl-0-1",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["tutorial1"],
+                "title": "1"
+            },
+            {
+                "id": "lvl-0-1-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "sunflower"
+            },
+            {
+                "id": "lvl-0-2",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["tutorial2"],
+                "title": "2"
+            },
+            {
+                "id": "lvl-0-2-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "cherry_bomb"
+            },
+            {
+                "id": "lvl-0-3",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["tutorial3"],
+                "title": "3"
+            },
+            {
+                "id": "lvl-0-3-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "wallnut"
+            },
+            {
+                "id": "lvl-0-4",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["tutorial4"],
+                "title": "4"
+            },
+            {
+                "id": "lvl-0-4-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "potatomine"
+            },
+            {
+                "id": "lvl-0-5",
+                "type": "level",
+                "appearance": "normal",
+                "levels": ["appease1_0"],
+                "title": "5"
+            },
+            {
+                "id": "lvl-0-5-plant",
+                "type": "plant",
+                "template": {"type": "plant"},
+                "plantReward": "iceburg"
+            }
+        ]
+      }
+    }
+  }
+}

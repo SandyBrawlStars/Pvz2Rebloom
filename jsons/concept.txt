@@ -1,0 +1,53 @@
+PH -
+PH - I - Sunflower               | Basic Zombie
+PH - II - Cherry Bomb        
+PH - III - Wallnut               | Conehead
+PH - IV - Potato Mine            | Newspaper
+PH - V - Iceberg Lettuce         | Buckethead
+AE - 
+AE - I - Cabbage Pult            | Ra Zombie      
+AE - II - Bonk Choy          
+AE - III - Bloomerang            | Tomb Raiser Zombie
+AE - IV                                                                | Necromancy
+AE - V - Grave Buster            | Camel Zombies                       | Mummy Memory
+AE - VI - Squash                 | Explorer Zombie                     
+AE - VII - Repeater                                                    | Sandstorm
+AE - VIII - Twin Sunflower       | Pharoah Zombie
+AE - IX
+AE - X                                                                 | Ultimate Battle
+AE - Boss - Kernel Pult          | AE Zomboss
+AE/PS Rift                       | ???
+AE - EX-I                        | Rally Zombie
+AE - EX-II - Dandelion           | Pyramid Head Zombie                 | Locked And Loaded
+AE - EX-III                      | Torchlight Zombie
+AE - EX-IV - Snow Pea                                                  | Save Our Seeds
+AE - EX-V                        | Finale
+PS - I - Snapdragon              | Swashbuckler
+PS - II - Spring Bean
+PS - III - Threepeater
+PS - IV
+PS - V - Coconut Cannon 
+PS - VI - Spikeweed 
+PS - VII - Peanut
+PS - VIII - Buttercup
+PS - IX 
+PS - X
+PS - Boss  - Split Pea
+PS/WW Rift
+PS - EX-I 
+PS - EX-II - Spikerock
+PS - EX-III 
+PS - EX-IV - Snap Pea
+PS - EX-V
+
+//Comment: straight shooters have extra shot speed
+UWT - I - Oxygen Algae          | Diver Zombie (Blastraunut)
+UWT - II                        | Snorkel Zombie
+UWT - III - Goo Pea                                             | snow pea but stun
+UWT - IV                        | Deep Sea Hunter Zombie
+UWT - V - Bubble Shroom                                         | spore shroom fast + seashooter projectile
+UWT - VI                        | Surfer Metal Zombie
+UWT - VII - Sea Starfruit       | Octo Zombie                   | angel fruit but aquatic
+UWT - VIII                      | Torpedo Imp                   | rocket imp but water
+UWT - IX - Seashooter           | Fisherman                     | tile turnip but water tile
+UWT - X - Soakohlrabi premium

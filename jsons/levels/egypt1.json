@@ -1,0 +1,286 @@
+{
+  "Information": {
+    "Author": "Sandy",
+    "Introduction": "",
+    "Version": "1.0",
+    "CreatedAt": "2026-2-10",
+    "UpdatedAt": "2026-2-10",
+    "Difficulty": "Easy",
+    "Category": "Adventure"
+  },
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "Description": "???",
+        "LevelNumber": 1,
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "Modules": [
+          "RTID(SunDropper@CurrentLevel)",
+          "RTID(DefaultZombieWinCondition@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(EgyptMowers@LevelModules)",
+          "RTID(WaveManagerModule@CurrentLevel)",
+          "RTID(SeedBank@CurrentLevel)",
+          "RTID(Gravestones@CurrentLevel)"
+        ],
+        "Name": "Ancient Egypt - Day 1\nLost In Time...",
+        "WrritenBy": "Sandy",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "StageModule": "RTID(EgyptStage@LevelModules)",
+        "FirstRewardParam": "cabbagepult",
+        "FirstRewardType": "unlock_plant",
+        "StartingSun": 50,
+        "ForceToWorldMap": true,
+        "FirstIntroNarrative": "INTRO",
+        "ReplayIntroNarrative": "INTRO"
+      }
+    },
+    {
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "DynamicZombies": [
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 25,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 40,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 50,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          },
+          {
+            "PointIncrementPerWave": 55,
+            "StartingPoints": 115,
+            "StartingWave": 0,
+            "ZombiePool": [
+              "RTID(mummy@ZombieTypes)",
+              "RTID(mummy_armor1@ZombieTypes)",
+              "RTID(ra@ZombieTypes)"
+            ]
+          }
+        ],
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      },
+      "aliases": [
+        "WaveManagerModule"
+      ]
+    },
+    {
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 10,
+        "WaveCount": 10,
+        "ZombieCountdownFirstWaveSecs": 18,
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"],
+          ["RTID(Wave4@CurrentLevel)"],
+          ["RTID(Wave5@CurrentLevel)"],
+          ["RTID(Wave6@CurrentLevel)"],
+          ["RTID(Wave7@CurrentLevel)"],
+          ["RTID(Wave8@CurrentLevel)"],
+          ["RTID(Wave9@CurrentLevel)"],
+          ["RTID(Wave10@CurrentLevel)"]
+        ]
+      },
+      "aliases": [
+        "WaveManager"
+      ]
+    },
+    {
+      "objclass": "SeedBankProperties",
+      "objdata": {
+        "SelectionMethod": "chooser",
+        "CardDecks": {
+          "ChallengingLocked": false,
+          "Challenging": [
+            {
+              "Name": {
+                "en": "Gunpowder Shortage",
+                "zh": "Gunpowder Shortage"
+              },
+              "Leader": 3,
+              "Plants": [
+                "sunflower",
+                "peashooter",
+                "wallnut",
+                "iceburg"
+              ]
+            }
+          ]
+        }
+      },
+      "aliases": [
+        "SeedBank"
+      ]
+    },
+    {
+      "aliases": [
+        "SunDropper"
+      ],
+      "objclass": "SunDropperProperties",
+      "objdata": {
+        "InitialSunDropDelay": 5,
+        "SunCountdownBase": 9,
+        "SunCountdownIncreasePerSun": 0,
+        "SunCountdownMax": 9.5,
+        "SunCountdownRange": 0.5,
+        "Value": 25
+      }
+    },
+    {
+      "aliases": [
+        "PlantMods"
+      ],
+      "objclass": "PlantModifierProperties",
+      "objdata": {
+        
+      }
+    },
+    {
+        "aliases": [
+            "Gravestones"
+        ],
+        "objclass": "GravestoneProperties",
+        "objdata": {
+            "ForceSpawnData": [
+                {
+                    "GridX": 7,
+                    "GridY": 0,
+                    "TypeName": "gravestone_egypt"
+                },
+                {
+                    "GridX": 8,
+                    "GridY": 1,
+                    "TypeName": "gravestone_egypt"
+                },
+                {
+                    "GridX": 6,
+                    "GridY": 2,
+                    "TypeName": "gravestone_egypt"
+                },
+                {
+                    "GridX": 8,
+                    "GridY": 3,
+                    "TypeName": "gravestone_egypt"
+                },
+                {
+                    "GridX": 6,
+                    "GridY": 4,
+                    "TypeName": "gravestone_egypt"
+                }
+            ]
+        }
+    },
+    {
+    "aliases": [
+        "INTRO"
+    ],
+    "objclass": "NarrativeProperties",
+    "objdata": {
+        "Flow": [
+        {
+            "Character": "crazydave",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "winnie",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "winnie",
+            "Action": "TIRED",
+            "Lines": {
+                "en": "Seems like our introduction was cut short... ",
+                "zh": "Seems like our introduction was cut short... "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "TIRED",
+            "Lines": {
+                "en": "But what could be causing this rip in       time...? ",
+                "zh": "But what could be causing this rip in       time...? "
+            }
+        },
+        {
+            "Character": "winnie",
+            "Action": "PLAYFUL",
+            "Lines": {
+                "en": "That I do not know... but seems like we're not the only ones here! ",
+                "zh": "That I do not know... but seems like we're not the only ones here! "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "SAY",
+            "Lines": {
+                "en": "Zombies?! ",
+                "zh": "Zombies?! "
+            }
+        },
+        {
+            "Character": "winnie",
+            "Action": "TIRED",
+            "Lines": {
+                "en": "This could be the work of Zomboss... ",
+                "zh": "This could be the work of Zomboss... "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "SAY",
+            "Lines": {
+                "en": "Seems like we have a long way ahead of us... ",
+                "zh": "Seems like we have a long way ahead of us... "
+            }
+        }
+        ]
+    }
+    }
+  ],
+  "version": 1
+}

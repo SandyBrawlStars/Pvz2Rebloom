@@ -1,0 +1,276 @@
+{
+  "Information": {
+    "Author": "Sandy",
+    "Introduction": "",
+    "Version": "1.0",
+    "CreatedAt": "2026-2-10",
+    "UpdatedAt": "2026-2-10",
+    "Difficulty": "Easy",
+    "Category": "Adventure"
+  },
+  "objects": [
+    {
+      "objclass": "LevelDefinition",
+      "objdata": {
+        "Description": "<PLAYERNAME>'s Stay In Ancient Egypt",
+        "LevelNumber": 5,
+        "Loot": "RTID(DefaultLoot@LevelModules)",
+        "Modules": [
+          "RTID(DefaultZombieWinCondition@LevelModules)",
+          "RTID(StandardIntro@LevelModules)",
+          "RTID(ZombiesDeadWinCon@LevelModules)",
+          "RTID(WaveManagerModule@CurrentLevel)",
+          "RTID(Memory@CurrentLevel)"
+        ],
+        "Name": "Ancient Egypt - Day 5\nMemory Training",
+        "WrritenBy": "Sandy",
+        "NormalPresentTable": "egypt_normal_01",
+        "ShinyPresentTable": "egypt_shiny_01",
+        "FirstRewardParam": "gravebuster",
+        "FirstRewardType": "unlock_plant",
+        "StageModule": "RTID(EgyptNightStage@LevelModules)",
+        "MusicType": "MiniGame_B",
+        "StartingSun": 50,
+        "FirstIntroNarrative": "INTRO",
+        "ReplayIntroNarrative": "INTRO"
+      }
+    },
+    {
+      "objclass": "WaveManagerModuleProperties",
+      "objdata": {
+        "DynamicZombies": [
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": []
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": [
+
+            ]
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": [
+
+            ]
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": [
+
+            ]
+          },
+          {
+            "PointIncrementPerWave": 0,
+            "StartingPoints": 0,
+            "StartingWave": 0,
+            "ZombiePool": [
+
+            ]
+          }
+        ],
+        "WaveManagerProps": "RTID(WaveManager@CurrentLevel)"
+      },
+      "aliases": [
+        "WaveManagerModule"
+      ]
+    },
+    {
+      "objclass": "WaveManagerProperties",
+      "objdata": {
+        "FlagWaveInterval": 7,
+        "WaveCount": 7,
+        "SuppressFlagZombie": true,
+        "ZombieCountdownFirstWaveSecs": 5,
+        "Waves": [
+          ["RTID(Wave1@CurrentLevel)"],
+          ["RTID(Wave2@CurrentLevel)"],
+          ["RTID(Wave3@CurrentLevel)"],
+          ["RTID(Wave4@CurrentLevel)"],
+          ["RTID(Wave5@CurrentLevel)"],
+          ["RTID(Wave6@CurrentLevel)"],
+          ["RTID(Wave7@CurrentLevel)"]
+        ]
+      },
+      "aliases": [
+        "WaveManager"
+      ]
+    },
+    {
+      "aliases":[
+				"Wave1"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{ "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 1, "Column": 5 },
+          { "Type": "RTID(camel_onehump_touch@ZombieTypes)", "Row": 2, "Column": 4 }
+				]
+			}
+    },
+    {
+      "aliases":[
+				"Wave2"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{ "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 3, "Column": 6 },
+          { "Type": "RTID(camel_onehump_touch@ZombieTypes)", "Row": 4, "Column": 7 },
+          { "Type": "RTID(camel_onehump_touch@ZombieTypes)", "Row": 5, "Column": 5 }
+				]
+			}
+    },
+     {
+      "aliases":[
+				"Wave3"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{ "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 1, "Column": 6 },
+          { "Type": "RTID(camel_onehump_touch@ZombieTypes)", "Row": 2, "Column": 7 }
+				]
+			}
+    },
+     {
+      "aliases":[
+				"Wave4"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{ "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 3, "Column": 4 },
+          { "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 4, "Column": 5 }
+				]
+			}
+    },
+    {
+      "aliases":[
+				"Wave5"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{ "Type": "RTID(camel_onehump_touch@ZombieTypes)", "Row": 5, "Column": 5 },
+          { "Type": "RTID(camel_onehump_touch@ZombieTypes)", "Row": 1, "Column": 6 }
+				]
+			}
+    },
+    {
+      "aliases":[
+				"Wave6"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+					{ "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 2, "Column": 4 },
+          { "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 3, "Column": 7 }
+				]
+			}
+    },
+    {
+      "aliases":[
+				"Wave7"
+			],
+			"objclass": "SpawnZombiesJitteredWaveActionProps",
+			"objdata": {
+				"AdditionalPlantfood": 0,
+				"Zombies": [
+          { "Type": "RTID(camel_twohump_touch@ZombieTypes)", "Row": 4, "Column": 5 },
+          { "Type": "RTID(camel_threehump_touch@ZombieTypes)", "Row": 5, "Column": 5 }
+				]
+			}
+    },
+    {
+      "aliases": [
+          "Memory"
+      ],
+      "objclass": "CamelMinigameProperties",
+      "objdata": {
+          "# Delay time between adjacent camels when a chain rises from the ground": 0,
+          "AdditionalXBufferBetweenChains": 50,
+          "CamelSegmentRiseStagger": 0.33,
+          "CardMatchTime": 0,
+          "CardMatchingTime": 0.5,
+          "CardNoMatchTime": 1.5,
+          "CardTypesUsed": 3,
+          "InitialTutorialZombieRiseDelay": 2,
+          "MaxSpawnX": 600,
+          "MinSpawnXEnd": 500,
+          "MinSpawnXStart": 550,
+          "ShowTutorial": false
+      }
+    },
+    {
+    "aliases": [
+        "INTRO"
+    ],
+    "objclass": "NarrativeProperties",
+    "objdata": {
+        "Flow": [
+        {
+            "Character": "crazydave",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "winnie",
+            "Action": "NPC_ENTER"
+        },
+        {
+            "Character": "crazydave",
+            "Action": "PLAYFUL",
+            "Lines": {
+                "en": "Seems like the Zombies started to come at night too! ",
+                "zh": "Seems like the Zombies started to come at night too! "
+            }
+        },
+        {
+            "Character": "winnie",
+            "Action": "PLAYFUL",
+            "Lines": {
+                "en": "Looks like we have to match those symbols. ",
+                "zh": "Looks like we have to match those symbols. "
+            }
+        },
+        {
+            "Character": "crazydave",
+            "Action": "EXCITED",
+            "Lines": {
+                "en": "Ooh, I like matching games! Don't like Zombies, though.",
+                "zh": "Ooh, I like matching games! Don't like Zombies, though."
+            } 
+        }
+        ]
+    }
+    }
+  ],
+  "version": 1
+}

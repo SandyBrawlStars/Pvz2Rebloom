@@ -1,0 +1,569 @@
+{
+  "Plants": [
+    {
+      "CommodityType": "plant",
+      "CommodityName": "chomper",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "shrinkingviolet",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "homingthistle",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "explodeonut",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "coldsnapdragon",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "grapeshot",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "bamboozle",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "powerlily",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "electricblueberry",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "cactus",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "jackolantern",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "firepeashooter",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "hurrikale",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "zoybeanpod",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "toadstool",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "lavaguava",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "peanut",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "hypnoshroom",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "applemortar",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "angelstarfruit",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "starfruit",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "electricpeashooter",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "concealmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern28"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "reinforcemint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern11"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "wintermint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach16"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "enforcemint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach14"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "appeasemint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach28"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "ailmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach21"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "containmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach23"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "armamint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach7"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "spearmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "beach3"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "enlightenmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "dino2"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "bombardmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "dino14"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "peppermint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "dino16"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "enchantmint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "eighties14"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "filamint",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "eighties8"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "megagatling",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "egypt12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "iceweed",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000,
+      "UnlockLevel": "pirate12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "cranjelly",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "electriccurrant",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 22500,
+      "UnlockLevel": "cowboy12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "imitater",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 25000,
+      "UnlockLevel": "future12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "vamporcini",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 17500,
+      "UnlockLevel": "dark12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "gumnut",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 25000,
+      "UnlockLevel": "lostcity12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "hotdate",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 22500,
+      "UnlockLevel": "iceage12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "goldbloom",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 27500,
+      "UnlockLevel": "eighties12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "strawburst",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 25000,
+      "UnlockLevel": "kongfu12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "escaperoot",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 25000,
+      "UnlockLevel": "dino12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "shootingstarfruit",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 32500,
+      "UnlockLevel": "modern39"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "missiletoe",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 25000,
+      "UnlockLevel": "beach12"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "powerplant_gamma",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000,
+      "UnlockLevel": "beach29"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "gloomvine",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 22500,
+      "UnlockLevel": "modern20"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "jalapeno",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "pyrevine",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "caulipower",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    },
+    {
+      "CommodityType": "plant",
+      "CommodityName": "snappea",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 30000,
+      "UnlockLevel": "modern40"
+    }
+  ],
+  "Upgrade": [
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_7_slots",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_starting_sun_lvl1",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 17500
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_8_slots",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_manual_mowers_1",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 6500
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_starting_sun_lvl2",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 17500
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_manual_mowers_2",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 6500
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_sunshovel_lvl1",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_sunshovel_lvl2",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_sunshovel_lvl3",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 20000,
+      "UnlockLevel": "lostcity12"
+    },
+    {
+      "CommodityType": "upgrade",
+      "CommodityName": "upgrade_pf_slots_lvl2",
+      "CurrencyType": "coin",
+      "CurrencyRequired": 0
+    }
+  ],
+  "Gem": [
+    
+  ],
+  "Coin": [
+    {
+      "CommodityType": "coin",
+      "CommodityCount": 500,
+      "CurrencyType": "gem",
+      "CurrencyRequired": 1,
+      "StackLevel": 0,
+      "CommodityDisplayName": {
+        "en": "Gem->Coin 1",
+        "zh": "Gem->Coin 1"
+      }
+    },
+    {
+      "CommodityType": "coin",
+      "CommodityCount": 2500,
+      "CurrencyType": "gem",
+      "CurrencyRequired": 5,
+      "StackLevel": 1,
+      "CommodityDisplayName": {
+        "en": "Gem->Coin 5",
+        "zh": "Gem->Coin 5"
+      }
+    },
+    {
+      "CommodityType": "coin",
+      "CommodityCount": 5000,
+      "CurrencyType": "gem",
+      "CurrencyRequired": 10,
+      "StackLevel": 2,
+      "CommodityDisplayName": {
+        "en": "Gem->Coin 10",
+        "zh": "Gem->Coin 10"
+      }
+    },
+    {
+      "CommodityType": "coin",
+      "CommodityCount": 27500,
+      "CurrencyType": "gem",
+      "CurrencyRequired": 50,
+      "StackLevel": 3,
+      "CommodityDisplayName": {
+        "en": "Gem->Coin 50",
+        "zh": "Gem->Coin 50"
+      }
+    },
+    {
+      "CommodityType": "coin",
+      "CommodityCount": 60000,
+      "CurrencyType": "gem",
+      "CurrencyRequired": 100,
+      "StackLevel": 4,
+      "CommodityDisplayName": {
+        "en": "Gem->Coin 100",
+        "zh": "Gem->Coin 100"
+      }
+    }
+  ],
+  "Zen": [
+    {
+      "CommodityType": "sprout",
+      "CommodityCount": 1,
+      "CurrencyType": "coin",
+      "CurrencyRequired": 2000,
+      "StackLevel": 0,
+      "CommodityDisplayName": {
+        "en": "A Sprout",
+        "zh": "1 株幼苗"
+      }
+    },
+    {
+      "CommodityType": "sprout",
+      "CommodityCount": 3,
+      "CurrencyType": "coin",
+      "CurrencyRequired": 6000,
+      "StackLevel": 1,
+      "CommodityDisplayName": {
+        "en": "3 Sprouts",
+        "zh": "3 株幼苗"
+      }
+    },
+    {
+      "CommodityType": "sprout",
+      "CommodityCount": 15,
+      "CurrencyType": "coin",
+      "CurrencyRequired": 27500,
+      "StackLevel": 2,
+      "CommodityDisplayName": {
+        "en": "Our Future!",
+        "zh": "我们的未来！"
+      }
+    },
+    {
+      "CommodityType": "sprout",
+      "CommodityCount": 20,
+      "CurrencyType": "coin",
+      "CurrencyRequired": 35000,
+      "StackLevel": 3,
+      "CommodityDisplayName": {
+        "en": "Sprout Bucket!",
+        "zh": "一大桶幼苗！"
+      }
+    },
+    {
+      "CommodityType": "sprout",
+      "CommodityCount": 30,
+      "CurrencyType": "coin",
+      "CurrencyRequired": 55000,
+      "StackLevel": 4,
+      "CommodityDisplayName": {
+        "en": "Coins Beget Coins!",
+        "zh": "钱能生钱！"
+      }
+    }
+  ]
+}
